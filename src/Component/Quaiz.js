@@ -15,8 +15,6 @@ const Quaiz = () => {
     const [showResult, setShowResult] = useState(false)
 
 
-
-
     const handleNextbtn = () => {
         setCount(count + 1)
         setNextBtn(true)
